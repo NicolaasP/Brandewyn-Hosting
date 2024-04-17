@@ -1,0 +1,27 @@
+.show{
+    width: 50%;
+    max-width: 800px;
+    transition-duration: 1s;
+    transition-property: width, display;
+    transition-timing-function: ease-in-out;
+}
+
+#sideMenu{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    height: 91.5vh;
+    background-color: #41007f;
+    overflow: hidden;
+    font-size: xx-large;
+    font-weight: bolder;
+    border-radius: 10px;
+    z-index: 100;
+}
+
+.hidden{
+    width: 0%;
+    transition-duration: 1s;
+    transition-property: width, display;
+    transition-timing-function: ease-in-out;
+}

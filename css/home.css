@@ -1,0 +1,273 @@
+html {    
+    background-image: linear-gradient(180deg, #59cbb1, #b83adb);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    font-family: monospace;
+    color: #000000ff;
+}
+
+form {    
+    background-color: #4444ff33;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input {
+    width: 30%;
+    height: 40px;
+    margin: 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: x-large;
+    font-weight: 550;
+}
+
+h2{
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+footer p{
+    font-size: x-large;
+    background-color: #ffffff50;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+}
+
+.extend {
+    transition-property: width, height, font-size;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.extend:focus {
+    width: 70%;
+    height: 50px;
+    font-size: xx-large;
+}
+
+button {
+    width: 25%;
+    height: 35px;
+    margin: 5px;
+    border-radius: 10px;
+    font-family: monospace;
+    background: #5555ff66;
+    font-size: x-large;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+p{
+    text-align: center;
+    font-size: large;
+    font-family: monospace;
+    color: #000000ff;
+}
+
+a{
+    color: #333333;
+    font-size: 100%;
+}
+
+#rep{
+    margin-top: 5%;
+    text-align: center;
+}
+
+#msgBox{
+    width: 30%;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.failed{
+    border-color: red;
+}
+
+.p{
+    display: none;
+}
+
+.failedTip{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    display: block;
+    color: red;
+    background-color: black;
+    width: 300px;
+    border-radius: 10px;
+    border-color: red;
+    border-width: 1px;
+    border: solid;
+}
+
+#tri{
+    width: 0px;
+    height: 0px;
+    border: 10px solid transparent;
+    border-top: 10px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.hidden{
+    display: none;
+}
+
+.mShow{
+    display: none;
+}
+
+.ex{
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    text-align: center;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    padding: 0px;
+}
+
+.ex a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+hr {
+    background-color: black;
+    border-color: transparent;
+    width: 100%;
+    height: 1px;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.div {
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 0px;
+    margin: 10px;
+}
+
+.example{
+    margin: 0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.pr {
+    width: 30%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.div.prices {
+    display: flex;
+    height: max-content;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.options {
+    width: 20%;
+    height: 40px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#cDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#pDiv, #eDiv{
+    display: flex;
+    width: 10%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+}
+
+.rButtons{
+    width: 20%;
+}
+
+ul{
+    width: fit-content;
+    margin: auto
+}
+
+.form{
+    margin: 0;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 15%;
+}
+
+.logoDiv{
+    display: block;
+    position: relative;
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logoDiv p{
+    display: inline-block;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    color: white;
+    font-size: small;
+}
+
+.logoDiv a{
+    color: #cccccc;
+}
+
+.ham{
+    background-image: url('../icons/menu.png');
+}

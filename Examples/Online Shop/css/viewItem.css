@@ -1,0 +1,104 @@
+:root {
+    --text: #a8b8c8;
+    --buttonText: #788591;
+    --buttonbg: #41007f;
+    --background: slategray;
+    --background1: #aac0d5;
+    --inputcolor: rgb(255 255 255);
+}
+
+body{
+    background-color: var(--background);
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.disp{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100vw;
+    justify-content: center;
+}
+
+.item{
+    background-color: var(--background1);
+    width: 90%;
+    height: 90vh;
+    margin: 5px 5%;
+    overflow: scroll;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    max-width: 1000px;
+}
+
+.item::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+}
+
+.itemImg{
+    display: block;
+    margin: 10px auto 10px auto;
+    width: 100%;
+}
+
+.itemTitle{
+    display: inline-block;
+    font-size: xx-large;
+    margin: 5px 15px 5px 5px;
+}
+
+.itemPrice{
+    display: inline-block;
+}
+
+.pButtons{
+    display: flex;
+    margin-right: 10%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    max-width: 400px;
+}
+
+.pButtons > .buttons{
+    width: 100%;
+    font-size: xx-large;
+    padding: 10px;
+    margin: 10px;
+}
+
+.imgs{
+    position: relative;
+    width: 80%;
+    margin: 5px auto;
+}
+
+.imgs > img{
+    display: inline-block;
+}
+
+.imgs > .buttons{
+    font-size: xx-large;
+    margin: 5px;
+    overflow: hidden;
+}
+
+#prevB{
+    position: absolute;
+    left: 0;
+    top: 40%;
+}
+
+#nextB{
+    position: absolute;
+    right: 0;
+    top: 40%;
+}

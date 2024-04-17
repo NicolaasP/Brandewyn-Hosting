@@ -1,0 +1,11 @@
+#konsoleH robot
+User-agent: googlebot
+allow: /public_html/*.php
+allow: /public_html
+
+User-agent: *
+allow: /public_html*.php
+allow: /public_html
+
+User-agent: *
+disallow:

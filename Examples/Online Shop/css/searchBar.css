@@ -1,0 +1,103 @@
+:root {
+    --text: #a8b8c8;
+    --buttonText: #788591;
+    --buttonbg: #41007f;
+    --background: slategray;
+    --inputcolor: rgb(255 255 255);
+}
+
+.top > .buttons{
+    position: absolute;
+}
+
+.buttons{
+    background-color: var(--buttonbg);
+    color: var(--buttonText);
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.top{
+    display: flex;
+    background-color: #ffffff;
+    width: 100vw;
+    height: 5vh;
+    position: relative;
+    top: -5px;
+    left: -7px;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#menuButton{
+    display: inline-block;
+    padding: 0;
+    min-width: 10px;
+    width: 10%;
+    height: 4vh;
+    position: absolute;
+    top: 18px;
+    font-size: 200%;
+    font-weight: bolder;
+    overflow: hidden;
+    left: 5px;
+    background-image: url("../Icons/menu.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}
+
+#logout{
+    position: absolute;
+    right: 25px;
+    top: 18px;
+    width: 10%;
+    height: 5vh;
+    font-size: 200%;
+    font-weight: bolder;
+    overflow: hidden;
+    background-image: url("../Icons/logout.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#search{
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    height: 4vh;
+}
+
+#searchBar{
+    background-color: var(--inputcolor);
+    text-align: center;
+    border: none;
+    border-bottom-color: boack;
+    border-bottom-style: solid;
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 1px;
+    left: 2px;
+    font-weight: 700;
+}
+
+#searchButton{
+    width: 20%;
+    height: 90%;
+    position: absolute;
+    right: 0px;
+    top: 12%;
+    font-size: 1.2vh;
+    font-weight: bolder;
+    overflow: hidden;
+}

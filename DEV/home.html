@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+        <meta name="description" content="Website development and hosting">
+        <Title>Brandewyn Hosting</Title>
+        <link rel="stylesheet" media="(orientation: landscape)" href="../css/home.css">
+        <link rel="stylesheet" media="(orientation: portrait)" href="../css/homeMobile.css">
+        <script type="text/javascript" src="javascript/home.js"></script>
+        <link rel="icon" href="favico.ico" type="image/x-icon">
+        
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4202925561269851"
+     crossorigin="anonymous"></script>
+
+        <script>
+        function gtag_report_conversion(url) {
+        var callback = function () {
+            if (typeof(url) != 'undefined') {
+            window.location = url;
+            }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-11480400585/hnp4CLOA2ZEZEMmFpOIq',
+            'event_callback': callback
+        });
+        return false;
+        }
+        </script>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11480400585"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-11480400585');
+        </script>
+
+    </head>
+    <body>
+
+        <header>
+            <div class="navbar">
+                <button type="button" class="ham"></button>
+            </div>
+            <h1>Brandewyn Hosting</h1>
+            <div class='logoDiv'>
+                <img src='BH_LOGO.png' alt='LOGO' class='logo'>
+                <p>Nicolaas Ivan Pretorius
+                <br> Phone <a href="tel:+27623911953">+27623911953</a>
+                <br> Email: <a href="mailto:nicolaas@brandewynhosting.co.za">nicolaas@brandewynhosting.co.za</a></p>
+            </div>
+        </header>
+
+        <main class="div">
+            
+
+            <div class="div example" data-nosnippet>
+                <h2>Example websites I have created</h2>
+
+                <?php
+                    $root = "Examples/";
+                    foreach(scandir($root) as $folder) {
+                        $pckg = file_get_contents("$root$folder/pckg.txt");
+                        if($folder == "." || $folder == "" || $folder == "..") continue;
+                        echo'<div class="ex"><a href="Examples/' . $folder . '/php/index.php"
+                        rel="noreferrer" target="_blank">' . $folder . ' - "' . $pckg . '"</a></div>';
+                    }
+
+                ?>
+            </div>
+            
+            <div class="div prices" data-nosnippet>
+                <div class="div pr basic" onclick="prClick(1)">
+                    <h2>Basic</h2>
+                    <h3>R1000</h3>
+                    <ul>
+                        <li>1 to 5 pages</li>
+                        <li>Basic functionality</li>
+                    </ul>
+                    <p>Perfect if all you want is a website that looks good and gives an overview of your business<br></p>
+                    <p>Similar to the "restaurant" example website</p>
+                    
+                </div>
+                <div class="div pr intermediate" onclick="prClick(2)">
+                    <h2>Intermediate</h2>
+                    <h3>R2500</h3>
+                    <ul>
+                        <li>6 to 15 pages</li>
+                        <li>A little more dynamic</li>
+                    </ul>
+                    <p>This option offers a little more. With this option you also get access to a database and some backend processing<br>
+                    includes features like user accounts, saving of user's data and more</p>
+                </div>
+                <div class="div pr custom" onclick="prClick(3)">
+                    <h2>Custom</h2>
+                    <h3>Price dependent on your needs</h3>
+                    <ul>
+                        <li>unlimited pages</li>
+                        <li>Full functionality</li>
+                    </ul>
+                    <p>We can work out a price depending on your specific needs</p>
+                </div>
+            </div>
+            <div data-nosnippet>
+                <form method=post action="submitted.php" onsubmit="return checkForm()" class="form div" name="details" id='form'>
+                    <h2>Please fill out the form below and we will contact you</h2><br>
+
+                    <label class="nameIn" for="name">Name: </label><br>
+                    <input type="text" name="name" id="name" placeholder="John Doe" class="extend" required><br>
+
+                    <label for="pckg">Please select your package</label><br>
+                    <select id="pckg" name="pckg" class="options">
+                        <option value="b">Basic</option>
+                        <option value="i">Intermediate</option>
+                        <option value="c">Custom</option>
+                    </select><br>
+
+                    <h2>How would you like to be contacted?</h2><br>
+
+                    <div id="cDiv">
+                        <div id='pDiv'>
+                            <label for="pSel">Phone</label>
+                            <input type="radio" name="cmethod" value="p" id="pSel" class="rButtons" onclick="pSelect()"><br class="mShow">
+                        </div>
+                        <div id='eDiv'>
+                            <label for="eSel">Email</label>
+                            <input type="radio" name="cmethod" value="e" id="eSel" class="rButtons" onclick="eSelect()" checked><br>
+                        </div>
+                    </div>
+                    <div id="rep">
+                    <label class="emIn" for="email">Email: </label><br> <input type="email" name="contact" id="email" placeholder="example@example.com" class="extend" required><br>
+                    </div>
+
+
+                    <textarea id="msgBox" name="msg" placeholder="Optional desctiption of the website you want"></textarea><br>
+
+                    <button class="subB">Submit</button>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>Nicolaas Ivan Pretorius <br> Phone <a href="tel:+27623911953">+27623911953</a> <br> Email: <a href="mailto:nicolaas@brandewynhosting.co.za">nicolaas@brandewynhosting.co.za</a></p>
+        </footer>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4202925561269851"
+     crossorigin="anonymous"></script>
+    </body>
+</html>

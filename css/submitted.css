@@ -1,0 +1,11 @@
+html {    
+    background-image: linear-gradient(180deg, #35cca9, #aa00d9);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    font-family: monospace;
+    margin-top: 20%;
+}

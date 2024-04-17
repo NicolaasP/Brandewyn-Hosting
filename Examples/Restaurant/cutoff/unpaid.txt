@@ -1,0 +1,13 @@
+<?php
+    include("../cutoff/cutoffTest.php");
+?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Does not pay developers</title>
+    </head>
+    <body lang="en">
+        <h1>The owner of this website refuses to pay their developer</h1>
+    </body>
+</html>

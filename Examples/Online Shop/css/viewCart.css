@@ -1,0 +1,99 @@
+:root {
+    --text: #a8b8c8;
+    --buttonText: #788591;
+    --buttonbg: #41007f;
+    --background: slategray;
+    --inputcolor: rgb(194, 162, 121);
+}
+
+body{
+    background-color: var(--background);
+    color: var(--text);
+    text-align: center;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+}
+
+h2{
+    font-size: xxx-large;
+}
+
+#table{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0;
+    width: 80%;
+    height: 100%;
+    max-width: 1300px;
+}
+
+th{
+    border-top: 2px solid var(--buttonbg);
+    border-bottom: 2px solid var(--buttonbg);
+    border-left: 2px solid var(--buttonbg);
+}
+
+td{
+    height: 100%;
+    border: none;
+}
+
+.data{
+    border-left: 2px solid var(--buttonbg);
+    border-bottom: 1px solid var(--buttonbg);
+}
+
+.sub{
+    border-top: 2px solid var(--buttonbg);
+}
+
+.r{
+    border-right: 2px solid var(--buttonbg);
+}
+
+.l{
+    border-left: 2px solid var(--buttonbg);  
+}
+
+.t{
+    border-bottom: 2px solid var(--buttonbg);
+}
+
+.removeItem{
+    background: none;
+    background-image: url("../Icons/minus.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.addItem{
+    background: none;
+    background-image: url("../Icons/plus.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.bCell{
+    padding-left: 5px;
+    width: 90px;
+}
+
+#buy{
+    margin-top: 10vh;
+    font-size: xx-large;
+    padding: 2% 5%;
+}

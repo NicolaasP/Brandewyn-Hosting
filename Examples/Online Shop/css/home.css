@@ -1,0 +1,89 @@
+:root {
+    --text: #a8b8c8;
+    --buttonText: #788591;
+    --buttonbg: #41007f;
+    --background: slategray;
+    --inputcolor: rgb(194, 162, 121);
+}
+
+body{
+    background-color: var(--background);
+    color: var(--text);
+    text-align: center;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    overflow: hidden;
+}
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    max-height: 100vh;
+    overflow: scroll;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.items::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+}
+
+::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+}
+
+.item{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    max-width: 300px;
+    display: grid;
+    justify-content: center;
+    align-content: space-between;
+    cursor: pointer;
+}
+
+.itemImg{
+    width: 100%;
+}
+
+.itemTitle{
+    font-size: 1.5vw;
+    word-break: break-word;
+    max-height: 100px;
+    overflow: hidden;
+}
+
+.itemPrice{
+    font-size: 1vw;
+    word-break: break-word;
+    max-height: 100px;
+    overflow: hidden;
+}
+
+/* Accept Cookies Modal */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}

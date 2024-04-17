@@ -1,0 +1,52 @@
+
+#sideMenu{
+    display: inline-block;
+    position: fixed;
+    left: 1%;
+    top: 3vh;
+    background-color: #60007b;
+    overflow: hidden;
+    font-size: xx-large;
+    font-weight: bolder;
+    border-radius: 10px;
+    z-index: 100;
+}
+
+#sideMenu li{
+    margin: 20px;
+}
+
+#sideMenu a{
+    text-decoration: none;
+    cursor: pointer;
+    color: darkgray;
+}
+
+#sideMenu a:visited{
+    text-decoration: none;
+    cursor: pointer;
+    color: darkgray;
+}
+
+#sideMenu a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+}
+
+.hidden{
+    width: 0%;
+    max-width: 600px;
+    transition-duration: 1s;
+    transition-property: width, display;
+    transition-timing-function: ease-in-out;
+}
+
+.show{
+    width: 98%;
+    height: fit-content;
+    max-width: 600px;
+    transition-duration: 1s;
+    transition-property: width, display;
+    transition-timing-function: ease-in-out;
+}

@@ -1,0 +1,137 @@
+:root {
+    --text: #a8b8c8;
+    --button: #41007f;
+}
+
+body {
+    background-color: slategray;
+    color: var(--text);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.form {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #231c34;
+    border-radius: 15px;
+    padding: 10px;
+    max-width: 800px;
+    overflow: hidden;
+}
+
+label {
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+input {
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: large
+}
+
+button {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 20%;
+    background-color: var(--button);
+    color: var(--text);
+    font-size: large;
+    overflow: hidden;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#pwdshow {
+    position: absolute;
+    /* This positions the button relative to the input-container */
+    right: 0;
+    /* This positions the button to the right edge of the input-container */
+    top: 30px;
+    font-size: smaller;
+    padding: 6px;
+}
+
+.buttons button, a {
+    display: inline-block;
+    background-color: var(--button);
+    color: var(--text);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: larger;
+    text-decoration: none;
+    overflow: hidden;
+    max-width: 200px;
+}
+
+.buttons button{
+    width: 40%;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 10px;
+    
+}
+
+.buttons a{
+    width: 35%;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+a:visited {
+    width: 15%;
+    color: var(--text);
+    font-size: larger;
+    text-decoration: none;
+}
+
+.invalid {
+    color: red;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.inputDiv {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.pwdDiv {
+    position: relative;
+    /* This makes the container a positioning context for the button */
+    display: inline-block;
+    width: 100%;
+}

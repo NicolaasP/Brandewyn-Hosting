@@ -1,0 +1,63 @@
+body{
+    background-image: url("pieterws.jpg");
+    background-size: cover;
+    background-position: top center; /* Aligns the top of the image with the top of the element and centers it horizontally */
+    text-align: center;
+}
+
+#scarer{
+    height: 80%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h1, p{
+    color: white;
+}
+
+.hide{
+    display: none;
+}
+
+.pop{
+    display: block;
+    width: 80%;
+    height: 80%;
+    opacity: 0;
+    animation: poper 0.4s ease-out infinite;
+}
+
+.p{
+    background-color: black;
+    animation: blinker 0.4s ease-out infinite;
+}
+
+.f{
+    color: black;
+    animation: flash 0.8s ease-out infinite;
+}
+
+img{
+    width: 80%;
+}
+
+@keyframes flash {
+    50% {
+        color: white;
+    }
+}
+  
+@keyframes blinker {
+    50% {
+        background: 0;
+    }
+}
+
+@keyframes poper {
+    50% {
+        opacity: 100%;
+    }
+}

@@ -1,0 +1,1322 @@
+[2024-03-13 15:22:38] [DB] [{INFO}] Logger created for: DB
+[2024-03-13 15:22:38] [DB] [{INFO}] DB created
+[2024-03-13 15:22:38] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-13 15:22:38] [DB] [{INFO}] Connected
+[2024-03-13 15:22:38] [Login] [{INFO}] Logger created for: Login
+[2024-03-13 15:22:38] [DB] [{INFO}] Query: SELECT id FROM users WHERE token='e025a35faa91d4bbf13bbd8b3753e2a4';
+[2024-03-13 15:22:38] [DB] [{INFO}] Query Prepared
+[2024-03-13 15:22:38] [DB] [{INFO}] Query executed
+[2024-03-13 15:22:38] [DB] [{INFO}] err: 0
+[2024-03-13 15:22:38] [DB] [{INFO}] Got results
+[2024-03-13 15:22:38] [DB] [{INFO}] Rows=1
+[2024-03-13 15:22:38] [DB] [{INFO}] Returning results for query
+[2024-03-13 15:22:38] [DB] [{INFO}] checking cookies
+[2024-03-13 15:22:38] [DB] [{INFO}] Query: SELECT id FROM users WHERE token='e025a35faa91d4bbf13bbd8b3753e2a4';
+[2024-03-13 15:22:38] [DB] [{INFO}] Query Prepared
+[2024-03-13 15:22:38] [DB] [{INFO}] Query executed
+[2024-03-13 15:22:38] [DB] [{INFO}] err: 0
+[2024-03-13 15:22:38] [DB] [{INFO}] Got results
+[2024-03-13 15:22:38] [DB] [{INFO}] Rows=1
+[2024-03-13 15:22:38] [DB] [{INFO}] Returning results for query
+[2024-03-13 15:22:38] [DB] [{INFO}] Checking cookie TTL
+[2024-03-13 15:22:38] [DB] [{INFO}] Query: SELECT tCreation FROM users where id = 15;
+[2024-03-13 15:22:38] [DB] [{INFO}] Query Prepared
+[2024-03-13 15:22:38] [DB] [{INFO}] Query executed
+[2024-03-13 15:22:38] [DB] [{INFO}] err: 0
+[2024-03-13 15:22:38] [DB] [{INFO}] Got results
+[2024-03-13 15:22:38] [DB] [{INFO}] Rows=1
+[2024-03-13 15:22:38] [DB] [{INFO}] Returning results for query
+[2024-03-13 15:22:38] [DB] [{INFO}] Cookie is within TTL
+[2024-03-13 15:22:38] [DB] [{INFO}] Query: SELECT uname from users where id = '15';
+[2024-03-13 15:22:38] [DB] [{INFO}] Query Prepared
+[2024-03-13 15:22:38] [DB] [{INFO}] Query executed
+[2024-03-13 15:22:38] [DB] [{INFO}] err: 0
+[2024-03-13 15:22:38] [DB] [{INFO}] Got results
+[2024-03-13 15:22:38] [DB] [{INFO}] Rows=1
+[2024-03-13 15:22:38] [DB] [{INFO}] Returning results for query
+[2024-03-13 15:22:38] [DB] [{INFO}] Checking user verification: Nicolaas
+[2024-03-13 15:22:38] [DB] [{INFO}] Query: SELECT validated FROM users WHERE uname = 'Nicolaas';
+[2024-03-13 15:22:38] [DB] [{INFO}] Query Prepared
+[2024-03-13 15:22:38] [DB] [{INFO}] Query executed
+[2024-03-13 15:22:38] [DB] [{INFO}] err: 0
+[2024-03-13 15:22:38] [DB] [{INFO}] Got results
+[2024-03-13 15:22:38] [DB] [{INFO}] Rows=1
+[2024-03-13 15:22:38] [DB] [{INFO}] Returning results for query
+[2024-03-13 15:22:38] [DB] [{INFO}] Cookie found and valid
+[2024-03-13 15:22:38] [DB] [{INFO}] Creating token
+[2024-03-13 15:22:38] [DB] [{INFO}] Execute: UPDATE users SET token = '1b92352016508cce7af0242d03477c17', tCreation = '2024-03-13 15:22:38' WHERE id = '15';
+[2024-03-13 15:22:38] [DB] [{INFO}] Checking if user: 15 accepted cookies
+[2024-03-13 15:22:38] [DB] [{INFO}] Query: SELECT cAccept FROM users WHERE id=15;
+[2024-03-13 15:22:38] [DB] [{INFO}] Query Prepared
+[2024-03-13 15:22:38] [DB] [{INFO}] Query executed
+[2024-03-13 15:22:38] [DB] [{INFO}] err: 0
+[2024-03-13 15:22:38] [DB] [{INFO}] Got results
+[2024-03-13 15:22:38] [DB] [{INFO}] Rows=1
+[2024-03-13 15:22:38] [DB] [{INFO}] Returning results for query
+[2024-03-13 15:22:38] [DB] [{INFO}] User has accpeted cookies
+[2024-03-13 15:22:38] [DB] [{INFO}] Token created successfully
+[2024-03-13 15:22:38] [DB] [{INFO}] New Cookie created succefully
+[2024-03-13 15:22:38] [Login] [{INFO}] uID=15
+[2024-03-13 15:22:38] [DB] [{INFO}] DB connection ended
+[2024-03-13 15:22:38] [DB] [{INFO}] Logger created for: DB
+[2024-03-13 15:22:38] [DB] [{INFO}] DB created
+[2024-03-13 15:22:38] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-13 15:22:38] [DB] [{INFO}] Connected
+[2024-03-13 15:22:38] [searchBar] [{INFO}] Logger created for: searchBar
+[2024-03-13 15:22:38] [searchBar] [{INFO}] uID=15
+[2024-03-13 15:22:38] [DB] [{INFO}] Logger created for: DB
+[2024-03-13 15:22:38] [DB] [{INFO}] DB created
+[2024-03-13 15:22:38] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-13 15:22:38] [DB] [{INFO}] Connected
+[2024-03-13 15:22:38] [DB] [{INFO}] DB connection ended
+[2024-03-13 15:22:38] [DB] [{INFO}] Query: SELECT uname from users where id = '15';
+[2024-03-13 15:22:38] [DB] [{INFO}] Query Prepared
+[2024-03-13 15:22:38] [DB] [{INFO}] Query executed
+[2024-03-13 15:22:38] [DB] [{INFO}] err: 0
+[2024-03-13 15:22:38] [DB] [{INFO}] Got results
+[2024-03-13 15:22:38] [DB] [{INFO}] Rows=1
+[2024-03-13 15:22:38] [DB] [{INFO}] Returning results for query
+[2024-03-13 15:22:38] [DB] [{INFO}] Query: SELECT * FROM items WHERE title like '%' ORDER BY views DESC;
+[2024-03-13 15:22:38] [DB] [{INFO}] Query Prepared
+[2024-03-13 15:22:38] [DB] [{INFO}] Query executed
+[2024-03-13 15:22:38] [DB] [{INFO}] err: 0
+[2024-03-13 15:22:38] [DB] [{INFO}] Got results
+[2024-03-13 15:22:38] [DB] [{INFO}] Rows=31
+[2024-03-13 15:22:38] [DB] [{INFO}] Returning results for query
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/5/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/5/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/5/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 4 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 5.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 2 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/10/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/10/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/10/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 4 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 10.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 2 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/1/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/1/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/1/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 3 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/19/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/19/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/19/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 3 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/2/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/2/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/2/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 6 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 2.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 3.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 4.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 4 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/8/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/8/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/8/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 4 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 8.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 2 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/18/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/18/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/18/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 3 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/3/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/3/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/3/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 4 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 3.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 2 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/4/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/4/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/4/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 4 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 4.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 2 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/6/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/6/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/6/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 4 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 6.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 2 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/7/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/7/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/7/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 4 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 7.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 2 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/9/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/9/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/9/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 4 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 9.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 2 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/11/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/11/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/11/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 4 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 11.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 2 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/12/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/12/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/12/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 4 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 12.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 2 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/13/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/13/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/13/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 3 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/14/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/14/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/14/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 3 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/15/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/15/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/15/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 3 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/16/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/16/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/16/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 3 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/17/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/17/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/17/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 3 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/20/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/20/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/20/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 3 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/21/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/21/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/21/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 3 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/22/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/22/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/22/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 3 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/23/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/23/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/23/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 3 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/24/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/24/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/24/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 3 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/25/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/25/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/25/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 3 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/26/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/26/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/26/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 3 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/27/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/27/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/27/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 3 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/28/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/28/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/28/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 3 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/29/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/29/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/29/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 3 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/30/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/30/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/30/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 3 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-13 15:22:38] [Item] [{INFO}] Logger created for: Item
+[2024-03-13 15:22:38] [Item] [{INFO}] Checking for image: ../itemPictures/31/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Images found
+[2024-03-13 15:22:38] [Item] [{INFO}] Image path: ../itemPictures/31/1.png
+[2024-03-13 15:22:38] [Item] [{INFO}] Scanning: ../itemPictures/31/
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 3 files
+[2024-03-13 15:22:38] [Item] [{INFO}] File: 1.png added to array
+[2024-03-13 15:22:38] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-13 15:22:38] [DB] [{INFO}] Checking if user: 15 accepted cookies
+[2024-03-13 15:22:38] [DB] [{INFO}] Query: SELECT cAccept FROM users WHERE id=15;
+[2024-03-13 15:22:38] [DB] [{INFO}] Query Prepared
+[2024-03-13 15:22:38] [DB] [{INFO}] Query executed
+[2024-03-13 15:22:38] [DB] [{INFO}] err: 0
+[2024-03-13 15:22:38] [DB] [{INFO}] Got results
+[2024-03-13 15:22:38] [DB] [{INFO}] Rows=1
+[2024-03-13 15:22:38] [DB] [{INFO}] Returning results for query
+[2024-03-13 15:22:38] [DB] [{INFO}] User has accpeted cookies
+[2024-03-13 15:22:38] [DB] [{INFO}] DB connection ended
+[2024-03-14 07:32:59] [DB] [{INFO}] Logger created for: DB
+[2024-03-14 07:32:59] [DB] [{INFO}] DB created
+[2024-03-14 07:32:59] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-14 07:32:59] [DB] [{INFO}] Connected
+[2024-03-14 07:32:59] [searchBar] [{INFO}] Logger created for: searchBar
+[2024-03-14 07:32:59] [searchBar] [{INFO}] uID=
+[2024-03-14 07:32:59] [DB] [{INFO}] DB connection ended
+[2024-03-14 07:32:59] [DB] [{INFO}] Logger created for: DB
+[2024-03-14 07:32:59] [DB] [{INFO}] DB created
+[2024-03-14 07:32:59] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-14 07:32:59] [DB] [{INFO}] Connected
+[2024-03-14 07:32:59] [Login] [{INFO}] Logger created for: Login
+[2024-03-14 07:32:59] [DB] [{INFO}] Query: SELECT id FROM users WHERE token='1b92352016508cce7af0242d03477c17';
+[2024-03-14 07:32:59] [DB] [{INFO}] Query Prepared
+[2024-03-14 07:32:59] [DB] [{INFO}] Query executed
+[2024-03-14 07:32:59] [DB] [{INFO}] err: 0
+[2024-03-14 07:32:59] [DB] [{INFO}] Got results
+[2024-03-14 07:32:59] [DB] [{INFO}] Rows=1
+[2024-03-14 07:32:59] [DB] [{INFO}] Returning results for query
+[2024-03-14 07:32:59] [DB] [{INFO}] checking cookies
+[2024-03-14 07:32:59] [DB] [{INFO}] Query: SELECT id FROM users WHERE token='1b92352016508cce7af0242d03477c17';
+[2024-03-14 07:32:59] [DB] [{INFO}] Query Prepared
+[2024-03-14 07:32:59] [DB] [{INFO}] Query executed
+[2024-03-14 07:32:59] [DB] [{INFO}] err: 0
+[2024-03-14 07:32:59] [DB] [{INFO}] Got results
+[2024-03-14 07:32:59] [DB] [{INFO}] Rows=1
+[2024-03-14 07:32:59] [DB] [{INFO}] Returning results for query
+[2024-03-14 07:32:59] [DB] [{INFO}] Checking cookie TTL
+[2024-03-14 07:32:59] [DB] [{INFO}] Query: SELECT tCreation FROM users where id = 15;
+[2024-03-14 07:32:59] [DB] [{INFO}] Query Prepared
+[2024-03-14 07:32:59] [DB] [{INFO}] Query executed
+[2024-03-14 07:32:59] [DB] [{INFO}] err: 0
+[2024-03-14 07:32:59] [DB] [{INFO}] Got results
+[2024-03-14 07:32:59] [DB] [{INFO}] Rows=1
+[2024-03-14 07:32:59] [DB] [{INFO}] Returning results for query
+[2024-03-14 07:32:59] [DB] [{INFO}] Cookie is within TTL
+[2024-03-14 07:32:59] [DB] [{INFO}] Query: SELECT uname from users where id = '15';
+[2024-03-14 07:32:59] [DB] [{INFO}] Query Prepared
+[2024-03-14 07:32:59] [DB] [{INFO}] Query executed
+[2024-03-14 07:32:59] [DB] [{INFO}] err: 0
+[2024-03-14 07:32:59] [DB] [{INFO}] Got results
+[2024-03-14 07:32:59] [DB] [{INFO}] Rows=1
+[2024-03-14 07:32:59] [DB] [{INFO}] Returning results for query
+[2024-03-14 07:32:59] [DB] [{INFO}] Checking user verification: Nicolaas
+[2024-03-14 07:32:59] [DB] [{INFO}] Query: SELECT validated FROM users WHERE uname = 'Nicolaas';
+[2024-03-14 07:32:59] [DB] [{INFO}] Query Prepared
+[2024-03-14 07:32:59] [DB] [{INFO}] Query executed
+[2024-03-14 07:32:59] [DB] [{INFO}] err: 0
+[2024-03-14 07:32:59] [DB] [{INFO}] Got results
+[2024-03-14 07:32:59] [DB] [{INFO}] Rows=1
+[2024-03-14 07:32:59] [DB] [{INFO}] Returning results for query
+[2024-03-14 07:32:59] [DB] [{INFO}] Cookie found and valid
+[2024-03-14 07:32:59] [DB] [{INFO}] Creating token
+[2024-03-14 07:32:59] [DB] [{INFO}] Execute: UPDATE users SET token = '5952c6922d52915a7aac11e0644fa396', tCreation = '2024-03-14 07:32:59' WHERE id = '15';
+[2024-03-14 07:32:59] [DB] [{INFO}] Checking if user: 15 accepted cookies
+[2024-03-14 07:32:59] [DB] [{INFO}] Query: SELECT cAccept FROM users WHERE id=15;
+[2024-03-14 07:32:59] [DB] [{INFO}] Query Prepared
+[2024-03-14 07:32:59] [DB] [{INFO}] Query executed
+[2024-03-14 07:32:59] [DB] [{INFO}] err: 0
+[2024-03-14 07:32:59] [DB] [{INFO}] Got results
+[2024-03-14 07:32:59] [DB] [{INFO}] Rows=1
+[2024-03-14 07:32:59] [DB] [{INFO}] Returning results for query
+[2024-03-14 07:32:59] [DB] [{INFO}] User has accpeted cookies
+[2024-03-14 07:32:59] [DB] [{INFO}] Token created successfully
+[2024-03-14 07:32:59] [DB] [{INFO}] New Cookie created succefully
+[2024-03-14 07:32:59] [Login] [{INFO}] uID=15
+[2024-03-14 07:32:59] [DB] [{INFO}] DB connection ended
+[2024-03-14 07:32:59] [DB] [{INFO}] Logger created for: DB
+[2024-03-14 07:32:59] [DB] [{INFO}] DB created
+[2024-03-14 07:32:59] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-14 07:32:59] [DB] [{INFO}] Connected
+[2024-03-14 07:32:59] [searchBar] [{INFO}] Logger created for: searchBar
+[2024-03-14 07:32:59] [searchBar] [{INFO}] uID=15
+[2024-03-14 07:32:59] [DB] [{INFO}] Logger created for: DB
+[2024-03-14 07:32:59] [DB] [{INFO}] DB created
+[2024-03-14 07:32:59] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-14 07:32:59] [DB] [{INFO}] Connected
+[2024-03-14 07:32:59] [DB] [{INFO}] DB connection ended
+[2024-03-14 07:32:59] [DB] [{INFO}] Query: SELECT uname from users where id = '15';
+[2024-03-14 07:32:59] [DB] [{INFO}] Query Prepared
+[2024-03-14 07:32:59] [DB] [{INFO}] Query executed
+[2024-03-14 07:32:59] [DB] [{INFO}] err: 0
+[2024-03-14 07:32:59] [DB] [{INFO}] Got results
+[2024-03-14 07:32:59] [DB] [{INFO}] Rows=1
+[2024-03-14 07:32:59] [DB] [{INFO}] Returning results for query
+[2024-03-14 07:32:59] [DB] [{INFO}] Query: SELECT * FROM items WHERE title like '%' ORDER BY views DESC;
+[2024-03-14 07:32:59] [DB] [{INFO}] Query Prepared
+[2024-03-14 07:32:59] [DB] [{INFO}] Query executed
+[2024-03-14 07:32:59] [DB] [{INFO}] err: 0
+[2024-03-14 07:32:59] [DB] [{INFO}] Got results
+[2024-03-14 07:32:59] [DB] [{INFO}] Rows=31
+[2024-03-14 07:32:59] [DB] [{INFO}] Returning results for query
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/5/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/5/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/5/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 4 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 5.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 2 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/10/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/10/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/10/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 4 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 10.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 2 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/1/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/1/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/1/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 3 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/19/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/19/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/19/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 3 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/2/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/2/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/2/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 6 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 2.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 3.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 4.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 4 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/8/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/8/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/8/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 4 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 8.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 2 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/18/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/18/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/18/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 3 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/3/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/3/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/3/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 4 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 3.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 2 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/4/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/4/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/4/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 4 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 4.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 2 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/6/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/6/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/6/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 4 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 6.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 2 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/7/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/7/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/7/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 4 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 7.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 2 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/9/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/9/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/9/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 4 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 9.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 2 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/11/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/11/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/11/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 4 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 11.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 2 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/12/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/12/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/12/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 4 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 12.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 2 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/13/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/13/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/13/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 3 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/14/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/14/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/14/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 3 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/15/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/15/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/15/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 3 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/16/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/16/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/16/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 3 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/17/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/17/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/17/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 3 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/20/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/20/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/20/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 3 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/21/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/21/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/21/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 3 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/22/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/22/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/22/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 3 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/23/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/23/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/23/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 3 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/24/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/24/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/24/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 3 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/25/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/25/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/25/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 3 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/26/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/26/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/26/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 3 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/27/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/27/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/27/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 3 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/28/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/28/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/28/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 3 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/29/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/29/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/29/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 3 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/30/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/30/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/30/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 3 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-14 07:32:59] [Item] [{INFO}] Logger created for: Item
+[2024-03-14 07:32:59] [Item] [{INFO}] Checking for image: ../itemPictures/31/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Images found
+[2024-03-14 07:32:59] [Item] [{INFO}] Image path: ../itemPictures/31/1.png
+[2024-03-14 07:32:59] [Item] [{INFO}] Scanning: ../itemPictures/31/
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 3 files
+[2024-03-14 07:32:59] [Item] [{INFO}] File: 1.png added to array
+[2024-03-14 07:32:59] [Item] [{INFO}] Found: 1 Pictures
+[2024-03-14 07:32:59] [DB] [{INFO}] Checking if user: 15 accepted cookies
+[2024-03-14 07:32:59] [DB] [{INFO}] Query: SELECT cAccept FROM users WHERE id=15;
+[2024-03-14 07:32:59] [DB] [{INFO}] Query Prepared
+[2024-03-14 07:32:59] [DB] [{INFO}] Query executed
+[2024-03-14 07:32:59] [DB] [{INFO}] err: 0
+[2024-03-14 07:32:59] [DB] [{INFO}] Got results
+[2024-03-14 07:32:59] [DB] [{INFO}] Rows=1
+[2024-03-14 07:32:59] [DB] [{INFO}] Returning results for query
+[2024-03-14 07:32:59] [DB] [{INFO}] User has accpeted cookies
+[2024-03-14 07:32:59] [DB] [{INFO}] DB connection ended
+[2024-03-15 11:36:40] [DB] [{INFO}] Logger created for: DB
+[2024-03-15 11:36:40] [DB] [{INFO}] DB created
+[2024-03-15 11:36:40] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-15 11:36:40] [DB] [{INFO}] Connected
+[2024-03-15 11:36:40] [Login] [{INFO}] Logger created for: Login
+[2024-03-15 11:36:40] [Login] [{INFO}] Asking credentials
+[2024-03-15 11:36:40] [DB] [{INFO}] DB connection ended
+[2024-03-17 12:44:02] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 12:44:02] [DB] [{INFO}] DB created
+[2024-03-17 12:44:02] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 12:44:02] [DB] [{INFO}] Connected
+[2024-03-17 12:44:02] [Login] [{INFO}] Logger created for: Login
+[2024-03-17 12:44:02] [Login] [{INFO}] Asking credentials
+[2024-03-17 12:44:02] [DB] [{INFO}] DB connection ended
+[2024-03-17 12:44:18] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 12:44:18] [DB] [{INFO}] DB created
+[2024-03-17 12:44:18] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 12:44:18] [DB] [{INFO}] Connected
+[2024-03-17 12:44:18] [Login] [{INFO}] Logger created for: Login
+[2024-03-17 12:44:18] [Login] [{INFO}] Starting Login: Israel 
+[2024-03-17 12:44:18] [DB] [{INFO}] Query: SELECT id from users where uname='Israel ';
+[2024-03-17 12:44:18] [DB] [{INFO}] Query Prepared
+[2024-03-17 12:44:18] [DB] [{INFO}] Query executed
+[2024-03-17 12:44:18] [DB] [{INFO}] err: 0
+[2024-03-17 12:44:18] [DB] [{INFO}] Got results
+[2024-03-17 12:44:18] [DB] [{INFO}] Rows=0
+[2024-03-17 12:44:18] [DB] [{INFO}] No rows returned for
+SELECT id from users where uname='Israel ';
+
+[2024-03-17 12:44:18] [Login] [{INFO}] Username does not exist
+[2024-03-17 12:44:18] [DB] [{INFO}] DB connection ended
+[2024-03-17 12:44:18] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 12:44:18] [DB] [{INFO}] DB created
+[2024-03-17 12:44:18] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 12:44:18] [DB] [{INFO}] Connected
+[2024-03-17 12:44:18] [Login] [{INFO}] Logger created for: Login
+[2024-03-17 12:44:18] [Login] [{INFO}] Manual login
+[2024-03-17 12:44:18] [DB] [{INFO}] DB connection ended
+[2024-03-17 12:44:34] [register] [{INFO}] Logger created for: register
+[2024-03-17 12:44:34] [register] [{INFO}] starting registration
+[2024-03-17 12:44:34] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 12:44:34] [DB] [{INFO}] DB created
+[2024-03-17 12:44:34] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 12:44:34] [DB] [{INFO}] Connected
+[2024-03-17 12:44:34] [register] [{INFO}] session started
+[2024-03-17 12:44:34] [DB] [{INFO}] DB connection ended
+[2024-03-17 12:44:46] [userExists] [{INFO}] Logger created for: userExists
+[2024-03-17 12:44:46] [userExists] [{INFO}] Checking if username is taken
+[2024-03-17 12:44:46] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 12:44:46] [DB] [{INFO}] DB created
+[2024-03-17 12:44:46] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 12:44:46] [DB] [{INFO}] Connected
+[2024-03-17 12:44:46] [DB] [{INFO}] Email check
+[2024-03-17 12:44:46] [DB] [{INFO}] Query: SELECT id FROM users WHERE email = 'selisiIsrael@gmail.com'
+[2024-03-17 12:44:46] [DB] [{INFO}] Query Prepared
+[2024-03-17 12:44:46] [DB] [{INFO}] Query executed
+[2024-03-17 12:44:46] [DB] [{INFO}] err: 0
+[2024-03-17 12:44:46] [DB] [{INFO}] Got results
+[2024-03-17 12:44:46] [DB] [{INFO}] Rows=0
+[2024-03-17 12:44:46] [DB] [{INFO}] No rows returned for
+SELECT id FROM users WHERE email = 'selisiIsrael@gmail.com'
+
+[2024-03-17 12:44:46] [DB] [{INFO}] Email not found
+[2024-03-17 12:44:46] [userExists] [{INFO}] email validity: 
+[2024-03-17 12:44:46] [DB] [{INFO}] DB connection ended
+[2024-03-17 12:44:48] [userExists] [{INFO}] Logger created for: userExists
+[2024-03-17 12:44:48] [userExists] [{INFO}] Checking if username is taken
+[2024-03-17 12:44:48] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 12:44:48] [DB] [{INFO}] DB created
+[2024-03-17 12:44:48] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 12:44:48] [DB] [{INFO}] Connected
+[2024-03-17 12:44:48] [DB] [{INFO}] Username check
+[2024-03-17 12:44:48] [DB] [{INFO}] Query: SELECT id FROM users WHERE uname='Israel ';
+[2024-03-17 12:44:48] [DB] [{INFO}] Query Prepared
+[2024-03-17 12:44:48] [DB] [{INFO}] Query executed
+[2024-03-17 12:44:48] [DB] [{INFO}] err: 0
+[2024-03-17 12:44:48] [DB] [{INFO}] Got results
+[2024-03-17 12:44:48] [DB] [{INFO}] Rows=0
+[2024-03-17 12:44:48] [DB] [{INFO}] No rows returned for
+SELECT id FROM users WHERE uname='Israel ';
+
+[2024-03-17 12:44:48] [DB] [{INFO}] Username not found
+[2024-03-17 12:44:48] [userExists] [{INFO}] username validity: 
+[2024-03-17 12:44:48] [DB] [{INFO}] DB connection ended
+[2024-03-17 12:45:27] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 12:45:27] [DB] [{INFO}] DB created
+[2024-03-17 12:45:27] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 12:45:27] [DB] [{INFO}] Connected
+[2024-03-17 12:45:27] [Login] [{INFO}] Logger created for: Login
+[2024-03-17 12:45:27] [Login] [{INFO}] Manual login
+[2024-03-17 12:45:27] [DB] [{INFO}] DB connection ended
+[2024-03-17 12:45:30] [register] [{INFO}] Logger created for: register
+[2024-03-17 12:45:30] [register] [{INFO}] starting registration
+[2024-03-17 12:45:30] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 12:45:30] [DB] [{INFO}] DB created
+[2024-03-17 12:45:30] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 12:45:30] [DB] [{INFO}] Connected
+[2024-03-17 12:45:30] [register] [{INFO}] session started
+[2024-03-17 12:45:30] [DB] [{INFO}] DB connection ended
+[2024-03-17 12:45:34] [userExists] [{INFO}] Logger created for: userExists
+[2024-03-17 12:45:34] [userExists] [{INFO}] Checking if username is taken
+[2024-03-17 12:45:34] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 12:45:34] [DB] [{INFO}] DB created
+[2024-03-17 12:45:34] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 12:45:34] [DB] [{INFO}] Connected
+[2024-03-17 12:45:34] [DB] [{INFO}] Username check
+[2024-03-17 12:45:34] [DB] [{INFO}] Query: SELECT id FROM users WHERE uname='Israel ';
+[2024-03-17 12:45:34] [DB] [{INFO}] Query Prepared
+[2024-03-17 12:45:34] [DB] [{INFO}] Query executed
+[2024-03-17 12:45:34] [DB] [{INFO}] err: 0
+[2024-03-17 12:45:34] [DB] [{INFO}] Got results
+[2024-03-17 12:45:34] [DB] [{INFO}] Rows=0
+[2024-03-17 12:45:34] [DB] [{INFO}] No rows returned for
+SELECT id FROM users WHERE uname='Israel ';
+
+[2024-03-17 12:45:34] [DB] [{INFO}] Username not found
+[2024-03-17 12:45:34] [userExists] [{INFO}] username validity: 
+[2024-03-17 12:45:34] [DB] [{INFO}] DB connection ended
+[2024-03-17 12:45:37] [userExists] [{INFO}] Logger created for: userExists
+[2024-03-17 12:45:37] [userExists] [{INFO}] Checking if username is taken
+[2024-03-17 12:45:37] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 12:45:37] [DB] [{INFO}] DB created
+[2024-03-17 12:45:37] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 12:45:37] [DB] [{INFO}] Connected
+[2024-03-17 12:45:37] [DB] [{INFO}] Email check
+[2024-03-17 12:45:37] [DB] [{INFO}] Query: SELECT id FROM users WHERE email = 'selisiIsrael@gmail.com'
+[2024-03-17 12:45:37] [DB] [{INFO}] Query Prepared
+[2024-03-17 12:45:37] [DB] [{INFO}] Query executed
+[2024-03-17 12:45:37] [DB] [{INFO}] err: 0
+[2024-03-17 12:45:37] [DB] [{INFO}] Got results
+[2024-03-17 12:45:37] [DB] [{INFO}] Rows=0
+[2024-03-17 12:45:37] [DB] [{INFO}] No rows returned for
+SELECT id FROM users WHERE email = 'selisiIsrael@gmail.com'
+
+[2024-03-17 12:45:37] [DB] [{INFO}] Email not found
+[2024-03-17 12:45:37] [userExists] [{INFO}] email validity: 
+[2024-03-17 12:45:37] [DB] [{INFO}] DB connection ended
+[2024-03-17 12:45:49] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 12:45:49] [DB] [{INFO}] DB created
+[2024-03-17 12:45:49] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 12:45:49] [DB] [{INFO}] Connected
+[2024-03-17 12:45:49] [Login] [{INFO}] Logger created for: Login
+[2024-03-17 12:45:49] [Login] [{INFO}] Manual login
+[2024-03-17 12:45:49] [DB] [{INFO}] DB connection ended
+[2024-03-17 12:45:54] [register] [{INFO}] Logger created for: register
+[2024-03-17 12:45:54] [register] [{INFO}] starting registration
+[2024-03-17 12:45:54] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 12:45:54] [DB] [{INFO}] DB created
+[2024-03-17 12:45:54] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 12:45:54] [DB] [{INFO}] Connected
+[2024-03-17 12:45:54] [register] [{INFO}] session started
+[2024-03-17 12:45:54] [DB] [{INFO}] DB connection ended
+[2024-03-17 12:45:56] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 12:45:56] [DB] [{INFO}] DB created
+[2024-03-17 12:45:56] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 12:45:56] [DB] [{INFO}] Connected
+[2024-03-17 12:45:56] [Login] [{INFO}] Logger created for: Login
+[2024-03-17 12:45:56] [Login] [{INFO}] Manual login
+[2024-03-17 12:45:56] [DB] [{INFO}] DB connection ended
+[2024-03-17 12:45:56] [register] [{INFO}] Logger created for: register
+[2024-03-17 12:45:56] [register] [{INFO}] starting registration
+[2024-03-17 12:45:56] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 12:45:56] [DB] [{INFO}] DB created
+[2024-03-17 12:45:56] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 12:45:56] [DB] [{INFO}] Connected
+[2024-03-17 12:45:56] [register] [{INFO}] session started
+[2024-03-17 12:45:56] [DB] [{INFO}] DB connection ended
+[2024-03-17 12:45:57] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 12:45:57] [DB] [{INFO}] DB created
+[2024-03-17 12:45:57] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 12:45:57] [DB] [{INFO}] Connected
+[2024-03-17 12:45:57] [Login] [{INFO}] Logger created for: Login
+[2024-03-17 12:45:57] [Login] [{INFO}] Manual login
+[2024-03-17 12:45:57] [DB] [{INFO}] DB connection ended
+[2024-03-17 12:45:58] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 12:45:58] [DB] [{INFO}] DB created
+[2024-03-17 12:45:58] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 12:45:58] [DB] [{INFO}] Connected
+[2024-03-17 12:45:58] [Login] [{INFO}] Logger created for: Login
+[2024-03-17 12:45:58] [Login] [{INFO}] Asking credentials
+[2024-03-17 12:45:58] [DB] [{INFO}] DB connection ended
+[2024-03-17 16:39:00] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 16:39:00] [DB] [{INFO}] DB created
+[2024-03-17 16:39:00] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 16:39:00] [DB] [{INFO}] Connected
+[2024-03-17 16:39:00] [Login] [{INFO}] Logger created for: Login
+[2024-03-17 16:39:00] [Login] [{INFO}] Asking credentials
+[2024-03-17 16:39:00] [DB] [{INFO}] DB connection ended
+[2024-03-17 16:39:02] [register] [{INFO}] Logger created for: register
+[2024-03-17 16:39:02] [register] [{INFO}] starting registration
+[2024-03-17 16:39:02] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 16:39:02] [DB] [{INFO}] DB created
+[2024-03-17 16:39:02] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 16:39:02] [DB] [{INFO}] Connected
+[2024-03-17 16:39:02] [register] [{INFO}] session started
+[2024-03-17 16:39:02] [DB] [{INFO}] DB connection ended
+[2024-03-17 16:39:06] [userExists] [{INFO}] Logger created for: userExists
+[2024-03-17 16:39:06] [userExists] [{INFO}] Checking if username is taken
+[2024-03-17 16:39:06] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 16:39:06] [DB] [{INFO}] DB created
+[2024-03-17 16:39:06] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 16:39:06] [DB] [{INFO}] Connected
+[2024-03-17 16:39:06] [DB] [{INFO}] Username check
+[2024-03-17 16:39:06] [DB] [{INFO}] Query: SELECT id FROM users WHERE uname='test';
+[2024-03-17 16:39:06] [DB] [{INFO}] Query Prepared
+[2024-03-17 16:39:06] [DB] [{INFO}] Query executed
+[2024-03-17 16:39:06] [DB] [{INFO}] err: 0
+[2024-03-17 16:39:06] [DB] [{INFO}] Got results
+[2024-03-17 16:39:06] [DB] [{INFO}] Rows=0
+[2024-03-17 16:39:06] [DB] [{INFO}] No rows returned for
+SELECT id FROM users WHERE uname='test';
+
+[2024-03-17 16:39:06] [DB] [{INFO}] Username not found
+[2024-03-17 16:39:06] [userExists] [{INFO}] username validity: 
+[2024-03-17 16:39:06] [DB] [{INFO}] DB connection ended
+[2024-03-17 16:39:20] [userExists] [{INFO}] Logger created for: userExists
+[2024-03-17 16:39:20] [userExists] [{INFO}] Checking if username is taken
+[2024-03-17 16:39:20] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 16:39:20] [DB] [{INFO}] DB created
+[2024-03-17 16:39:20] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 16:39:20] [DB] [{INFO}] Connected
+[2024-03-17 16:39:20] [DB] [{INFO}] Email check
+[2024-03-17 16:39:20] [DB] [{INFO}] Query: SELECT id FROM users WHERE email = 'ivan'
+[2024-03-17 16:39:20] [DB] [{INFO}] Query Prepared
+[2024-03-17 16:39:20] [DB] [{INFO}] Query executed
+[2024-03-17 16:39:20] [DB] [{INFO}] err: 0
+[2024-03-17 16:39:20] [DB] [{INFO}] Got results
+[2024-03-17 16:39:20] [DB] [{INFO}] Rows=0
+[2024-03-17 16:39:20] [DB] [{INFO}] No rows returned for
+SELECT id FROM users WHERE email = 'ivan'
+
+[2024-03-17 16:39:20] [DB] [{INFO}] Email not found
+[2024-03-17 16:39:20] [userExists] [{INFO}] email validity: 
+[2024-03-17 16:39:20] [DB] [{INFO}] DB connection ended
+[2024-03-17 16:39:21] [userExists] [{INFO}] Logger created for: userExists
+[2024-03-17 16:39:21] [userExists] [{INFO}] Checking if username is taken
+[2024-03-17 16:39:21] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 16:39:21] [DB] [{INFO}] DB created
+[2024-03-17 16:39:21] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 16:39:21] [DB] [{INFO}] Connected
+[2024-03-17 16:39:21] [DB] [{INFO}] Email check
+[2024-03-17 16:39:21] [DB] [{INFO}] Query: SELECT id FROM users WHERE email = 'ivan3'
+[2024-03-17 16:39:21] [DB] [{INFO}] Query Prepared
+[2024-03-17 16:39:21] [DB] [{INFO}] Query executed
+[2024-03-17 16:39:21] [DB] [{INFO}] err: 0
+[2024-03-17 16:39:21] [DB] [{INFO}] Got results
+[2024-03-17 16:39:21] [DB] [{INFO}] Rows=0
+[2024-03-17 16:39:21] [DB] [{INFO}] No rows returned for
+SELECT id FROM users WHERE email = 'ivan3'
+
+[2024-03-17 16:39:21] [DB] [{INFO}] Email not found
+[2024-03-17 16:39:21] [userExists] [{INFO}] email validity: 
+[2024-03-17 16:39:21] [DB] [{INFO}] DB connection ended
+[2024-03-17 16:39:21] [userExists] [{INFO}] Logger created for: userExists
+[2024-03-17 16:39:21] [userExists] [{INFO}] Checking if username is taken
+[2024-03-17 16:39:21] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 16:39:21] [DB] [{INFO}] DB created
+[2024-03-17 16:39:21] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 16:39:21] [DB] [{INFO}] Connected
+[2024-03-17 16:39:21] [DB] [{INFO}] Email check
+[2024-03-17 16:39:21] [DB] [{INFO}] Query: SELECT id FROM users WHERE email = 'ivan30'
+[2024-03-17 16:39:21] [DB] [{INFO}] Query Prepared
+[2024-03-17 16:39:21] [DB] [{INFO}] Query executed
+[2024-03-17 16:39:21] [DB] [{INFO}] err: 0
+[2024-03-17 16:39:21] [DB] [{INFO}] Got results
+[2024-03-17 16:39:21] [DB] [{INFO}] Rows=0
+[2024-03-17 16:39:21] [DB] [{INFO}] No rows returned for
+SELECT id FROM users WHERE email = 'ivan30'
+
+[2024-03-17 16:39:21] [DB] [{INFO}] Email not found
+[2024-03-17 16:39:21] [userExists] [{INFO}] email validity: 
+[2024-03-17 16:39:21] [DB] [{INFO}] DB connection ended
+[2024-03-17 16:39:21] [userExists] [{INFO}] Logger created for: userExists
+[2024-03-17 16:39:21] [userExists] [{INFO}] Checking if username is taken
+[2024-03-17 16:39:21] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 16:39:21] [DB] [{INFO}] DB created
+[2024-03-17 16:39:21] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 16:39:21] [DB] [{INFO}] Connected
+[2024-03-17 16:39:21] [DB] [{INFO}] Email check
+[2024-03-17 16:39:21] [DB] [{INFO}] Query: SELECT id FROM users WHERE email = 'ivan301'
+[2024-03-17 16:39:21] [DB] [{INFO}] Query Prepared
+[2024-03-17 16:39:21] [DB] [{INFO}] Query executed
+[2024-03-17 16:39:21] [DB] [{INFO}] err: 0
+[2024-03-17 16:39:21] [DB] [{INFO}] Got results
+[2024-03-17 16:39:21] [DB] [{INFO}] Rows=0
+[2024-03-17 16:39:21] [DB] [{INFO}] No rows returned for
+SELECT id FROM users WHERE email = 'ivan301'
+
+[2024-03-17 16:39:21] [DB] [{INFO}] Email not found
+[2024-03-17 16:39:21] [userExists] [{INFO}] email validity: 
+[2024-03-17 16:39:21] [DB] [{INFO}] DB connection ended
+[2024-03-17 16:39:21] [userExists] [{INFO}] Logger created for: userExists
+[2024-03-17 16:39:21] [userExists] [{INFO}] Checking if username is taken
+[2024-03-17 16:39:21] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 16:39:21] [DB] [{INFO}] DB created
+[2024-03-17 16:39:21] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 16:39:21] [DB] [{INFO}] Connected
+[2024-03-17 16:39:21] [DB] [{INFO}] Email check
+[2024-03-17 16:39:21] [DB] [{INFO}] Query: SELECT id FROM users WHERE email = 'ivan3011'
+[2024-03-17 16:39:21] [DB] [{INFO}] Query Prepared
+[2024-03-17 16:39:21] [DB] [{INFO}] Query executed
+[2024-03-17 16:39:21] [DB] [{INFO}] err: 0
+[2024-03-17 16:39:21] [DB] [{INFO}] Got results
+[2024-03-17 16:39:21] [DB] [{INFO}] Rows=0
+[2024-03-17 16:39:21] [DB] [{INFO}] No rows returned for
+SELECT id FROM users WHERE email = 'ivan3011'
+
+[2024-03-17 16:39:21] [DB] [{INFO}] Email not found
+[2024-03-17 16:39:21] [userExists] [{INFO}] email validity: 
+[2024-03-17 16:39:21] [DB] [{INFO}] DB connection ended
+[2024-03-17 16:39:22] [userExists] [{INFO}] Logger created for: userExists
+[2024-03-17 16:39:22] [userExists] [{INFO}] Checking if username is taken
+[2024-03-17 16:39:22] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 16:39:22] [DB] [{INFO}] DB created
+[2024-03-17 16:39:22] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 16:39:22] [DB] [{INFO}] Connected
+[2024-03-17 16:39:22] [DB] [{INFO}] Email check
+[2024-03-17 16:39:22] [DB] [{INFO}] Query: SELECT id FROM users WHERE email = 'ivan3011@'
+[2024-03-17 16:39:22] [DB] [{INFO}] Query Prepared
+[2024-03-17 16:39:22] [DB] [{INFO}] Query executed
+[2024-03-17 16:39:22] [DB] [{INFO}] err: 0
+[2024-03-17 16:39:22] [DB] [{INFO}] Got results
+[2024-03-17 16:39:22] [DB] [{INFO}] Rows=0
+[2024-03-17 16:39:22] [DB] [{INFO}] No rows returned for
+SELECT id FROM users WHERE email = 'ivan3011@'
+
+[2024-03-17 16:39:22] [DB] [{INFO}] Email not found
+[2024-03-17 16:39:22] [userExists] [{INFO}] email validity: 
+[2024-03-17 16:39:22] [DB] [{INFO}] DB connection ended
+[2024-03-17 16:39:23] [userExists] [{INFO}] Logger created for: userExists
+[2024-03-17 16:39:23] [userExists] [{INFO}] Checking if username is taken
+[2024-03-17 16:39:23] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 16:39:23] [DB] [{INFO}] DB created
+[2024-03-17 16:39:23] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 16:39:23] [DB] [{INFO}] Connected
+[2024-03-17 16:39:23] [DB] [{INFO}] Email check
+[2024-03-17 16:39:23] [DB] [{INFO}] Query: SELECT id FROM users WHERE email = 'ivan3011@g'
+[2024-03-17 16:39:23] [DB] [{INFO}] Query Prepared
+[2024-03-17 16:39:23] [DB] [{INFO}] Query executed
+[2024-03-17 16:39:23] [DB] [{INFO}] err: 0
+[2024-03-17 16:39:23] [DB] [{INFO}] Got results
+[2024-03-17 16:39:23] [DB] [{INFO}] Rows=0
+[2024-03-17 16:39:23] [DB] [{INFO}] No rows returned for
+SELECT id FROM users WHERE email = 'ivan3011@g'
+
+[2024-03-17 16:39:23] [DB] [{INFO}] Email not found
+[2024-03-17 16:39:23] [userExists] [{INFO}] email validity: 
+[2024-03-17 16:39:23] [DB] [{INFO}] DB connection ended
+[2024-03-17 16:39:23] [userExists] [{INFO}] Logger created for: userExists
+[2024-03-17 16:39:23] [userExists] [{INFO}] Checking if username is taken
+[2024-03-17 16:39:23] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 16:39:23] [DB] [{INFO}] DB created
+[2024-03-17 16:39:23] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 16:39:23] [DB] [{INFO}] Connected
+[2024-03-17 16:39:23] [DB] [{INFO}] Email check
+[2024-03-17 16:39:23] [DB] [{INFO}] Query: SELECT id FROM users WHERE email = 'ivan3011@gm'
+[2024-03-17 16:39:23] [DB] [{INFO}] Query Prepared
+[2024-03-17 16:39:23] [DB] [{INFO}] Query executed
+[2024-03-17 16:39:23] [DB] [{INFO}] err: 0
+[2024-03-17 16:39:23] [DB] [{INFO}] Got results
+[2024-03-17 16:39:23] [DB] [{INFO}] Rows=0
+[2024-03-17 16:39:23] [DB] [{INFO}] No rows returned for
+SELECT id FROM users WHERE email = 'ivan3011@gm'
+
+[2024-03-17 16:39:23] [DB] [{INFO}] Email not found
+[2024-03-17 16:39:23] [userExists] [{INFO}] email validity: 
+[2024-03-17 16:39:23] [DB] [{INFO}] DB connection ended
+[2024-03-17 16:39:23] [userExists] [{INFO}] Logger created for: userExists
+[2024-03-17 16:39:23] [userExists] [{INFO}] Checking if username is taken
+[2024-03-17 16:39:23] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 16:39:23] [DB] [{INFO}] DB created
+[2024-03-17 16:39:23] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 16:39:23] [DB] [{INFO}] Connected
+[2024-03-17 16:39:23] [DB] [{INFO}] Email check
+[2024-03-17 16:39:23] [DB] [{INFO}] Query: SELECT id FROM users WHERE email = 'ivan3011@g'
+[2024-03-17 16:39:23] [DB] [{INFO}] Query Prepared
+[2024-03-17 16:39:23] [DB] [{INFO}] Query executed
+[2024-03-17 16:39:23] [DB] [{INFO}] err: 0
+[2024-03-17 16:39:23] [DB] [{INFO}] Got results
+[2024-03-17 16:39:23] [DB] [{INFO}] Rows=0
+[2024-03-17 16:39:23] [DB] [{INFO}] No rows returned for
+SELECT id FROM users WHERE email = 'ivan3011@g'
+
+[2024-03-17 16:39:23] [DB] [{INFO}] Email not found
+[2024-03-17 16:39:23] [userExists] [{INFO}] email validity: 
+[2024-03-17 16:39:23] [DB] [{INFO}] DB connection ended
+[2024-03-17 16:39:23] [userExists] [{INFO}] Logger created for: userExists
+[2024-03-17 16:39:23] [userExists] [{INFO}] Checking if username is taken
+[2024-03-17 16:39:23] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 16:39:23] [DB] [{INFO}] DB created
+[2024-03-17 16:39:23] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 16:39:23] [DB] [{INFO}] Connected
+[2024-03-17 16:39:23] [DB] [{INFO}] Email check
+[2024-03-17 16:39:23] [DB] [{INFO}] Query: SELECT id FROM users WHERE email = 'ivan3011@'
+[2024-03-17 16:39:23] [DB] [{INFO}] Query Prepared
+[2024-03-17 16:39:23] [DB] [{INFO}] Query executed
+[2024-03-17 16:39:23] [DB] [{INFO}] err: 0
+[2024-03-17 16:39:23] [DB] [{INFO}] Got results
+[2024-03-17 16:39:23] [DB] [{INFO}] Rows=0
+[2024-03-17 16:39:23] [DB] [{INFO}] No rows returned for
+SELECT id FROM users WHERE email = 'ivan3011@'
+
+[2024-03-17 16:39:23] [DB] [{INFO}] Email not found
+[2024-03-17 16:39:23] [userExists] [{INFO}] email validity: 
+[2024-03-17 16:39:23] [DB] [{INFO}] DB connection ended
+[2024-03-17 16:39:24] [userExists] [{INFO}] Logger created for: userExists
+[2024-03-17 16:39:24] [userExists] [{INFO}] Checking if username is taken
+[2024-03-17 16:39:24] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 16:39:24] [DB] [{INFO}] DB created
+[2024-03-17 16:39:24] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 16:39:24] [DB] [{INFO}] Connected
+[2024-03-17 16:39:24] [DB] [{INFO}] Email check
+[2024-03-17 16:39:24] [DB] [{INFO}] Query: SELECT id FROM users WHERE email = 'ivan3011@i'
+[2024-03-17 16:39:24] [DB] [{INFO}] Query Prepared
+[2024-03-17 16:39:24] [DB] [{INFO}] Query executed
+[2024-03-17 16:39:24] [DB] [{INFO}] err: 0
+[2024-03-17 16:39:24] [DB] [{INFO}] Got results
+[2024-03-17 16:39:24] [DB] [{INFO}] Rows=0
+[2024-03-17 16:39:24] [DB] [{INFO}] No rows returned for
+SELECT id FROM users WHERE email = 'ivan3011@i'
+
+[2024-03-17 16:39:24] [DB] [{INFO}] Email not found
+[2024-03-17 16:39:24] [userExists] [{INFO}] email validity: 
+[2024-03-17 16:39:24] [DB] [{INFO}] DB connection ended
+[2024-03-17 16:39:24] [userExists] [{INFO}] Logger created for: userExists
+[2024-03-17 16:39:24] [userExists] [{INFO}] Checking if username is taken
+[2024-03-17 16:39:24] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 16:39:24] [DB] [{INFO}] DB created
+[2024-03-17 16:39:24] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 16:39:24] [DB] [{INFO}] Connected
+[2024-03-17 16:39:24] [DB] [{INFO}] Email check
+[2024-03-17 16:39:24] [DB] [{INFO}] Query: SELECT id FROM users WHERE email = 'ivan3011@ic'
+[2024-03-17 16:39:24] [DB] [{INFO}] Query Prepared
+[2024-03-17 16:39:24] [DB] [{INFO}] Query executed
+[2024-03-17 16:39:24] [DB] [{INFO}] err: 0
+[2024-03-17 16:39:24] [DB] [{INFO}] Got results
+[2024-03-17 16:39:24] [DB] [{INFO}] Rows=0
+[2024-03-17 16:39:24] [DB] [{INFO}] No rows returned for
+SELECT id FROM users WHERE email = 'ivan3011@ic'
+
+[2024-03-17 16:39:24] [DB] [{INFO}] Email not found
+[2024-03-17 16:39:24] [userExists] [{INFO}] email validity: 
+[2024-03-17 16:39:24] [DB] [{INFO}] DB connection ended
+[2024-03-17 16:39:24] [userExists] [{INFO}] Logger created for: userExists
+[2024-03-17 16:39:24] [userExists] [{INFO}] Checking if username is taken
+[2024-03-17 16:39:24] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 16:39:24] [DB] [{INFO}] DB created
+[2024-03-17 16:39:24] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 16:39:24] [DB] [{INFO}] Connected
+[2024-03-17 16:39:24] [DB] [{INFO}] Email check
+[2024-03-17 16:39:24] [DB] [{INFO}] Query: SELECT id FROM users WHERE email = 'ivan3011@icl'
+[2024-03-17 16:39:24] [DB] [{INFO}] Query Prepared
+[2024-03-17 16:39:24] [DB] [{INFO}] Query executed
+[2024-03-17 16:39:24] [DB] [{INFO}] err: 0
+[2024-03-17 16:39:24] [DB] [{INFO}] Got results
+[2024-03-17 16:39:24] [DB] [{INFO}] Rows=0
+[2024-03-17 16:39:24] [DB] [{INFO}] No rows returned for
+SELECT id FROM users WHERE email = 'ivan3011@icl'
+
+[2024-03-17 16:39:24] [DB] [{INFO}] Email not found
+[2024-03-17 16:39:24] [userExists] [{INFO}] email validity: 
+[2024-03-17 16:39:24] [DB] [{INFO}] DB connection ended
+[2024-03-17 16:39:25] [userExists] [{INFO}] Logger created for: userExists
+[2024-03-17 16:39:25] [userExists] [{INFO}] Checking if username is taken
+[2024-03-17 16:39:25] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 16:39:25] [DB] [{INFO}] DB created
+[2024-03-17 16:39:25] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 16:39:25] [DB] [{INFO}] Connected
+[2024-03-17 16:39:25] [DB] [{INFO}] Email check
+[2024-03-17 16:39:25] [DB] [{INFO}] Query: SELECT id FROM users WHERE email = 'ivan3011@iclo'
+[2024-03-17 16:39:25] [DB] [{INFO}] Query Prepared
+[2024-03-17 16:39:25] [DB] [{INFO}] Query executed
+[2024-03-17 16:39:25] [DB] [{INFO}] err: 0
+[2024-03-17 16:39:25] [DB] [{INFO}] Got results
+[2024-03-17 16:39:25] [DB] [{INFO}] Rows=0
+[2024-03-17 16:39:25] [DB] [{INFO}] No rows returned for
+SELECT id FROM users WHERE email = 'ivan3011@iclo'
+
+[2024-03-17 16:39:25] [DB] [{INFO}] Email not found
+[2024-03-17 16:39:25] [userExists] [{INFO}] email validity: 
+[2024-03-17 16:39:25] [DB] [{INFO}] DB connection ended
+[2024-03-17 16:39:25] [userExists] [{INFO}] Logger created for: userExists
+[2024-03-17 16:39:25] [userExists] [{INFO}] Checking if username is taken
+[2024-03-17 16:39:25] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 16:39:25] [DB] [{INFO}] DB created
+[2024-03-17 16:39:25] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 16:39:25] [DB] [{INFO}] Connected
+[2024-03-17 16:39:25] [DB] [{INFO}] Email check
+[2024-03-17 16:39:25] [DB] [{INFO}] Query: SELECT id FROM users WHERE email = 'ivan3011@iclou'
+[2024-03-17 16:39:25] [DB] [{INFO}] Query Prepared
+[2024-03-17 16:39:25] [DB] [{INFO}] Query executed
+[2024-03-17 16:39:25] [DB] [{INFO}] err: 0
+[2024-03-17 16:39:25] [DB] [{INFO}] Got results
+[2024-03-17 16:39:25] [DB] [{INFO}] Rows=0
+[2024-03-17 16:39:25] [DB] [{INFO}] No rows returned for
+SELECT id FROM users WHERE email = 'ivan3011@iclou'
+
+[2024-03-17 16:39:25] [DB] [{INFO}] Email not found
+[2024-03-17 16:39:25] [userExists] [{INFO}] email validity: 
+[2024-03-17 16:39:25] [DB] [{INFO}] DB connection ended
+[2024-03-17 16:39:25] [userExists] [{INFO}] Logger created for: userExists
+[2024-03-17 16:39:25] [userExists] [{INFO}] Checking if username is taken
+[2024-03-17 16:39:25] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 16:39:25] [DB] [{INFO}] DB created
+[2024-03-17 16:39:25] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 16:39:25] [DB] [{INFO}] Connected
+[2024-03-17 16:39:25] [DB] [{INFO}] Email check
+[2024-03-17 16:39:25] [DB] [{INFO}] Query: SELECT id FROM users WHERE email = 'ivan3011@icloud'
+[2024-03-17 16:39:25] [DB] [{INFO}] Query Prepared
+[2024-03-17 16:39:25] [DB] [{INFO}] Query executed
+[2024-03-17 16:39:25] [DB] [{INFO}] err: 0
+[2024-03-17 16:39:25] [DB] [{INFO}] Got results
+[2024-03-17 16:39:25] [DB] [{INFO}] Rows=0
+[2024-03-17 16:39:25] [DB] [{INFO}] No rows returned for
+SELECT id FROM users WHERE email = 'ivan3011@icloud'
+
+[2024-03-17 16:39:25] [DB] [{INFO}] Email not found
+[2024-03-17 16:39:25] [userExists] [{INFO}] email validity: 
+[2024-03-17 16:39:25] [DB] [{INFO}] DB connection ended
+[2024-03-17 16:39:25] [userExists] [{INFO}] Logger created for: userExists
+[2024-03-17 16:39:25] [userExists] [{INFO}] Checking if username is taken
+[2024-03-17 16:39:25] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 16:39:25] [DB] [{INFO}] DB created
+[2024-03-17 16:39:25] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 16:39:25] [DB] [{INFO}] Connected
+[2024-03-17 16:39:25] [DB] [{INFO}] Email check
+[2024-03-17 16:39:25] [DB] [{INFO}] Query: SELECT id FROM users WHERE email = 'ivan3011@icloud.'
+[2024-03-17 16:39:25] [DB] [{INFO}] Query Prepared
+[2024-03-17 16:39:25] [DB] [{INFO}] Query executed
+[2024-03-17 16:39:25] [DB] [{INFO}] err: 0
+[2024-03-17 16:39:25] [DB] [{INFO}] Got results
+[2024-03-17 16:39:25] [DB] [{INFO}] Rows=0
+[2024-03-17 16:39:25] [DB] [{INFO}] No rows returned for
+SELECT id FROM users WHERE email = 'ivan3011@icloud.'
+
+[2024-03-17 16:39:25] [DB] [{INFO}] Email not found
+[2024-03-17 16:39:25] [userExists] [{INFO}] email validity: 
+[2024-03-17 16:39:25] [DB] [{INFO}] DB connection ended
+[2024-03-17 16:39:26] [userExists] [{INFO}] Logger created for: userExists
+[2024-03-17 16:39:26] [userExists] [{INFO}] Checking if username is taken
+[2024-03-17 16:39:26] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 16:39:26] [DB] [{INFO}] DB created
+[2024-03-17 16:39:26] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 16:39:26] [DB] [{INFO}] Connected
+[2024-03-17 16:39:26] [DB] [{INFO}] Email check
+[2024-03-17 16:39:26] [DB] [{INFO}] Query: SELECT id FROM users WHERE email = 'ivan3011@icloud.c'
+[2024-03-17 16:39:26] [DB] [{INFO}] Query Prepared
+[2024-03-17 16:39:26] [DB] [{INFO}] Query executed
+[2024-03-17 16:39:26] [DB] [{INFO}] err: 0
+[2024-03-17 16:39:26] [DB] [{INFO}] Got results
+[2024-03-17 16:39:26] [DB] [{INFO}] Rows=0
+[2024-03-17 16:39:26] [DB] [{INFO}] No rows returned for
+SELECT id FROM users WHERE email = 'ivan3011@icloud.c'
+
+[2024-03-17 16:39:26] [DB] [{INFO}] Email not found
+[2024-03-17 16:39:26] [userExists] [{INFO}] email validity: 
+[2024-03-17 16:39:26] [DB] [{INFO}] DB connection ended
+[2024-03-17 16:39:26] [userExists] [{INFO}] Logger created for: userExists
+[2024-03-17 16:39:26] [userExists] [{INFO}] Checking if username is taken
+[2024-03-17 16:39:26] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 16:39:26] [DB] [{INFO}] DB created
+[2024-03-17 16:39:26] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 16:39:26] [DB] [{INFO}] Connected
+[2024-03-17 16:39:26] [DB] [{INFO}] Email check
+[2024-03-17 16:39:26] [DB] [{INFO}] Query: SELECT id FROM users WHERE email = 'ivan3011@icloud.co'
+[2024-03-17 16:39:26] [DB] [{INFO}] Query Prepared
+[2024-03-17 16:39:26] [DB] [{INFO}] Query executed
+[2024-03-17 16:39:26] [DB] [{INFO}] err: 0
+[2024-03-17 16:39:26] [DB] [{INFO}] Got results
+[2024-03-17 16:39:26] [DB] [{INFO}] Rows=0
+[2024-03-17 16:39:26] [DB] [{INFO}] No rows returned for
+SELECT id FROM users WHERE email = 'ivan3011@icloud.co'
+
+[2024-03-17 16:39:26] [DB] [{INFO}] Email not found
+[2024-03-17 16:39:26] [userExists] [{INFO}] email validity: 
+[2024-03-17 16:39:26] [DB] [{INFO}] DB connection ended
+[2024-03-17 16:39:26] [userExists] [{INFO}] Logger created for: userExists
+[2024-03-17 16:39:26] [userExists] [{INFO}] Checking if username is taken
+[2024-03-17 16:39:26] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 16:39:26] [DB] [{INFO}] DB created
+[2024-03-17 16:39:26] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 16:39:26] [DB] [{INFO}] Connected
+[2024-03-17 16:39:26] [DB] [{INFO}] Email check
+[2024-03-17 16:39:26] [DB] [{INFO}] Query: SELECT id FROM users WHERE email = 'ivan3011@icloud.com'
+[2024-03-17 16:39:26] [DB] [{INFO}] Query Prepared
+[2024-03-17 16:39:26] [DB] [{INFO}] Query executed
+[2024-03-17 16:39:26] [DB] [{INFO}] err: 0
+[2024-03-17 16:39:26] [DB] [{INFO}] Got results
+[2024-03-17 16:39:26] [DB] [{INFO}] Rows=0
+[2024-03-17 16:39:26] [DB] [{INFO}] No rows returned for
+SELECT id FROM users WHERE email = 'ivan3011@icloud.com'
+
+[2024-03-17 16:39:26] [DB] [{INFO}] Email not found
+[2024-03-17 16:39:26] [userExists] [{INFO}] email validity: 
+[2024-03-17 16:39:26] [DB] [{INFO}] DB connection ended
+[2024-03-17 16:41:40] [register] [{INFO}] Logger created for: register
+[2024-03-17 16:41:40] [register] [{INFO}] starting registration
+[2024-03-17 16:41:40] [DB] [{INFO}] Logger created for: DB
+[2024-03-17 16:41:40] [DB] [{INFO}] DB created
+[2024-03-17 16:41:40] [DB] [{INFO}] Attempting to connect 0/5
+[2024-03-17 16:41:40] [DB] [{INFO}] Connected
+[2024-03-17 16:41:40] [register] [{INFO}] session started
+[2024-03-17 16:41:40] [DB] [{INFO}] DB connection ended
